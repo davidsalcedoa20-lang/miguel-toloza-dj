@@ -64,7 +64,7 @@ const scrollRight = () => {
   {/* IMAGEN */}
 
   <img
-    src="/images/Hero.jpg"
+    src="/images/hero.jpg"
     alt="Artist"
     className="absolute inset-0 w-full h-full object-cover"
   />
