@@ -330,7 +330,49 @@ const scrollRight = () => {
       />
 
     </div>
+{/* GALERÍA */}
 
+    <div
+      ref={galleryRef}
+      className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-16"
+    >
+
+      <img
+        src="/images/Modelo1.jpg"
+        onClick={() => setSelectedImage("/images/Modelo1.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+
+      <img
+        src="/images/Modelo2.jpg"
+        onClick={() => setSelectedImage("/images/Modelo2.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+
+      <img
+        src="/images/Modelo3.jpg"
+        onClick={() => setSelectedImage("/images/Modelo3.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+
+      <img
+        src="/images/Modelo4.jpg"
+        onClick={() => setSelectedImage("/images/Modelo4.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+
+      <img
+        src="/images/Modelo5.jpg"
+        onClick={() => setSelectedImage("/images/Modelo5.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+      <img
+        src="/images/Modelo6.jpg"
+        onClick={() => setSelectedImage("/images/Modelo6.jpg")}
+        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+      />
+
+    </div>
     {/* BOTÓN DERECHO */}
 
     <button
