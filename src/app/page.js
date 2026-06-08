@@ -292,87 +292,94 @@ const scrollRight = () => {
       ←
     </button>
 
-    {/* GALERÍA */}
+    {/* GALERÍA ESTUDIO */}
+<div
+  ref={galleryRef}
+  className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-16"
+>
+  <img
+    src="/images/Estudio1.jpg"
+    alt="Estudio 1"
+    onClick={() => setSelectedImage("/images/Estudio1.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-    <div
-      ref={galleryRef}
-      className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-16"
-    >
+  <img
+    src="/images/Estudio2.jpg"
+    alt="Estudio 2"
+    onClick={() => setSelectedImage("/images/Estudio2.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Estudio1.jpg"
-        onClick={() => setSelectedImage("/images/Estudio1.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+  <img
+    src="/images/Estudio3.jpg"
+    alt="Estudio 3"
+    onClick={() => setSelectedImage("/images/Estudio3.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Estudio2.jpg"
-        onClick={() => setSelectedImage("/images/Estudioy2.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+  <img
+    src="/images/Estudio4.jpg"
+    alt="Estudio 4"
+    onClick={() => setSelectedImage("/images/Estudio4.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Estudio3.jpg"
-        onClick={() => setSelectedImage("/images/Estudio3.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+  <img
+    src="/images/Estudio5.jpg"
+    alt="Estudio 5"
+    onClick={() => setSelectedImage("/images/Estudio5.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
+</div>
 
-      <img
-        src="/images/Estudio4.jpg"
-        onClick={() => setSelectedImage("/images/Estudio4.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+{/* GALERÍA MODELOS */}
+<div
+  ref={galleryRef}
+  className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-16"
+>
+  <img
+    src="/images/Modelo1.jpg"
+    alt="Modelo 1"
+    onClick={() => setSelectedImage("/images/Modelo1.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Estudio5.jpg"
-        onClick={() => setSelectedImage("/images/Estudio5.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+  <img
+    src="/images/Modelo2.jpg"
+    alt="Modelo 2"
+    onClick={() => setSelectedImage("/images/Modelo2.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-    </div>
-{/* GALERÍA */}
+  <img
+    src="/images/Modelo3.jpg"
+    alt="Modelo 3"
+    onClick={() => setSelectedImage("/images/Modelo3.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-    <div
-      ref={galleryRef}
-      className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-16"
-    >
+  <img
+    src="/images/Modelo4.jpg"
+    alt="Modelo 4"
+    onClick={() => setSelectedImage("/images/Modelo4.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Modelo1.jpg"
-        onClick={() => setSelectedImage("/images/Modelo1.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
+  <img
+    src="/images/Modelo5.jpg"
+    alt="Modelo 5"
+    onClick={() => setSelectedImage("/images/Modelo5.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
 
-      <img
-        src="/images/Modelo2.jpg"
-        onClick={() => setSelectedImage("/images/Modelo2.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
-
-      <img
-        src="/images/Modelo3.jpg"
-        onClick={() => setSelectedImage("/images/Modelo3.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
-
-      <img
-        src="/images/Modelo4.jpg"
-        onClick={() => setSelectedImage("/images/Modelo4.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
-
-      <img
-        src="/images/Modelo5.jpg"
-        onClick={() => setSelectedImage("/images/Modelo5.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
-      <img
-        src="/images/Modelo6.jpg"
-        onClick={() => setSelectedImage("/images/Modelo6.jpg")}
-        className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
-      />
-
-    </div>
+  <img
+    src="/images/Modelo6.jpg"
+    alt="Modelo 6"
+    onClick={() => setSelectedImage("/images/Modelo6.jpg")}
+    className="w-[260px] h-[460px] object-cover rounded-[30px] flex-shrink-0 transition duration-500 hover:scale-[1.03] cursor-pointer"
+  />
+</div>
     {/* BOTÓN DERECHO */}
 
     <button
